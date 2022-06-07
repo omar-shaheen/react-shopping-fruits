@@ -1,0 +1,76 @@
+.item-product {
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  box-shadow: 0 3px 10px #eee;
+  margin-bottom: 2rem;
+}
+.item-product .img-product {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+.item-product .img-product .img-prod img {
+  max-width: 100%;
+}
+.item-product .img-product .actions {
+  background-color: #333;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.item-product .img-product .actions a {
+  color: #fff;
+  transition: 0.3s;
+}
+.item-product .img-product .actions a.btnadd-cart:hover {
+  color: tomato;
+}
+.item-product .img-product .actions a.btnadd-wishlist:hover {
+  color: tomato;
+}
+.item-product .info-product {
+  text-align: center;
+  position: relative;
+}
+.item-product .info-product .title-product {
+  color: #333;
+  font-weight: 500;
+}
+.item-product .info-product .title-product:hover {
+  color: tomato;
+}
+.item-product .info-product .prices {
+  margin: 0.4rem auto;
+}
+.item-product .info-product .prices span {
+  color: #333;
+  font-weight: bold;
+}
+.item-product .info-product .prices del {
+  color: #333;
+}
+.item-product .info-product .rating i {
+  color: #333;
+}
+.item-product .info-product .rating i .active {
+  color: #ffc107;
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}

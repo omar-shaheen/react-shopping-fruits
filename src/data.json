@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Various vegetables basket 1",
+    "img": "/imgs/products/1.png",
+    "price": 173,
+    "desc": "this products 1"
+  },
+  {
+    "id": 2,
+    "title": "Various vegetables basket 2",
+    "img": "/imgs/products/2.jpg",
+    "price": 133,
+    "desc": "this products 2"
+  },
+  {
+    "id": 3,
+    "title": "Various vegetables basket 3",
+    "img": "/imgs/products/3.png",
+    "price": 443,
+    "desc": "this products 3"
+  },
+  {
+    "id": 4,
+    "title": "Various vegetables basket 4",
+    "img": "/imgs/products/4.jpg",
+    "price": 232,
+    "desc": "this products 4"
+  },
+  {
+    "id": 5,
+    "title": "Various vegetables basket 5",
+    "img": "/imgs/products/5.png",
+    "price": 121,
+    "desc": "this products 5"
+  },
+  {
+    "id": 6,
+    "title": "Various vegetables basket 6",
+    "img": "/imgs/products/6.jpg",
+    "price": 133,
+    "desc": "this products 6"
+  }
+]

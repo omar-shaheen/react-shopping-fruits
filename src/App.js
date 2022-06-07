@@ -1,8 +1,16 @@
+import React, { useState } from "react";
+
+import Products from "./components/Products/Products";
+
+import data from "./data.json";
 
 function App() {
+  const [products, setProducts] = useState(data);
+  // console.log(products);
+
   return (
     <div className="App">
-      Learn React
+      <Products products={products} />
     </div>
   );
 }
